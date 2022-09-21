@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -11,6 +12,7 @@ header{
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 2;
 }
 
 header > section{
@@ -32,5 +34,65 @@ header > section{
 }
 
 #logo{
-    width: 10%;
+    width: 20%;
+}
+
+/* main */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.photo{
+    display: inline-block;
+    position: relative;
+    width: calc(100%/3 - 3px);
+}
+
+.photo > img{
+    width: 100%;
+}
+
+.ab-cuore{
+    position: absolute;
+    top: 10px;
+    right:0;
+    background-color: white;
+    padding: 10px;
+}
+
+.ab-due{
+    position: absolute;
+    bottom: 6rem;
+    left: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.ab-sconto{
+    background-color: #FF0000;
+    padding: 5px;
+}
+
+.ab-sost{
+    background-color: #008000;
+    padding: 5px;
+}
+
+.prodotto, .scontato, .ab-due{
+    font-weight: bold;
+}
+
+.scontato{
+    color: red;
+}
+
+.prezzo{
+    text-decoration-line: line-through;
 }
