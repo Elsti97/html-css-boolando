@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header che spero resti fisso */
+header{
+    background-color: #FF6900;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+header > section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.generi , .scelte{
+    color: white;
+    paddign: 0 10px;
+}
+
+.scelte > i , .generi > span{
+    padding: 0 5px;
+}
+
+#logo{
+    width: 10%;
+}
