@@ -34,7 +34,7 @@ header > section{
 }
 
 #logo{
-    width: 20%;
+    width: 10%;
 }
 
 /* main */
@@ -95,4 +95,34 @@ header > section{
 
 .prezzo{
     text-decoration-line: line-through;
+}
+
+
+/* footer */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.container-ft{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.ft > i{
+    margin-right: 10px;
+}
+
+.boldi{
+    font-weight: bold;
 }
