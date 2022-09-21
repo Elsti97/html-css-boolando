@@ -97,6 +97,21 @@ header > section{
     text-decoration-line: line-through;
 }
 
+.photo:hover .imgA{
+    display: none;
+}
+
+.imgB{
+    display: none;
+}
+
+.photo:hover .imgB{
+    display: block;
+}
+
+.ab-cuore:hover{
+    color: red;
+}
 
 /* footer */
 footer{
